@@ -142,3 +142,27 @@ td {
   /*Footer*/
   .attribution { font-size: 11px; text-align: center; margin-top: 50px; }
   .attribution a { color: hsl(228, 45%, 44%); }
+
+  /*Versão PC*/
+  @media screen and (min-width: 1200px) and (max-width:2400px){
+    body{
+        position: absolute;
+        background-color: orange;
+    }
+    main {
+        position: relative;
+        left: 80%;
+        width: 700px;
+        margin-top: 50px;
+        background-color: white;
+        border-radius: 40px;
+        padding: 40px;
+    }
+    img {
+        width: 700px;
+        border-radius: 30px;
+    }
+    #Preparation-list {
+        width: 600px;
+    }
+  }
