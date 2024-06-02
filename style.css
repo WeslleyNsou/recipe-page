@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'outfit' ;
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: 'young';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    }
+   /*Var*/
+   :root{
+    /*Var Font*/
+    --destaque:'young';
+    --padrao:'outfit'; 
+    /*Var color*/
+    --cor-destaque:hsl(31, 69%, 39%);
+    --cor-padrao:hsl(45, 2%, 43%);
+   }
+  /*Style Geral*/
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+
+  }
+  h2 {
+    color: var(--cor-destaque);
+    font-family: var(--destaque);
+    font-weight: 500;
+    font-size: 2em;
+    margin: auto;
+    padding: 0px 20px 20px;
+}
+p {
+    font-family: var(--padrao);
+    text-align: justify;
+    color: var(--cor-padrao);
+    margin: 0px 30px;
+}
+
+  /*Intro*/
+  img{
+    width: 96vw;
+  }
+  h1{
+    font-family: var(--destaque);
+    font-size: 3em;
+    line-height: 45px;
+    font-weight: 500;
+    margin: 30px;
+  }
+
+/*Preparation-list*/
+#Preparation-list {
+    height: 200px;
+    width: 80vw;
+    background-color: rgb(243, 216, 229);
+    border-radius: 20px;
+    margin: 20px auto;
+}
+#Preparation-list > h2 {
+    color: rgb(133, 41, 87);
+    font-family: var(--padrao);
+    font-weight: 500;
+    padding: 20px;
+}
+#Preparation-list > li {
+    font-family: var(--padrao);
+    color: var(--cor-padrao);
+    padding: 0px 20px 20px;
+}
+#Preparation-list ::marker {
+    color: rgb(133, 41, 87);
+}
+
+/*Ingredientes-list*/
+
+#ingr-list {
+    padding-bottom: 40px;
+}
+
+#ingr-list > li {
+    font-family: var(--padrao);
+    color: var(--cor-padrao);
+    text-align: justify;
+    padding: 0px 30px;
+}
+#ingr-list ::marker {
+    color: var(--font-color-h2);
+}
+
+/*Instrução*/
+
+#Instru{
+    width: 400px;
+    border-top: 2px solid rgb(213, 213, 210);
+    border-bottom: 2px solid rgb(213, 213, 210);
+    padding: 40px 0px;
+    margin: auto;
+
+}
+
+#Instru li {
+    width: 300px;
+    font-family: var(--padrao);
+    color: var(--cor-padrao);
+    margin: auto;
+    padding: 10px;
+}
+#instru ::marker {
+    color: var(--cor-padrao);
+}
+
+/*Nutrição*/
+#nutri h2{
+    padding-top: 20px;
+}
+#nutri > p {
+    font-family: var(--padrao);
+    color: var(--cor-padrao);
+    padding: 0px 20px 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+.nutri {
+    color: var(--cor-padrao);
+}
+.valor {
+    color: var(--cor-destaque);
+    font-weight: bolder;
+}
+td {
+    font-family: var(--padrao);
+    border-bottom: 2px solid rgb(213, 213, 210);
+    padding: 20px;
+}
+  /*Footer*/
+  .attribution { font-size: 11px; text-align: center; margin-top: 50px; }
+  .attribution a { color: hsl(228, 45%, 44%); }

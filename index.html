@@ -5,37 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" media="all">
   
   <title>Frontend Mentor | Recipe page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    @font-face {
-      font-family:'outfit' ;
-      src: url('assets/fonts/outfit/OFL.txt');
-    }
-    @font-face {
-      font-family: ;
-      src: url('assets/fonts/young-serif/OFL.txt');
-      }
-    /*Style Geral*/
-    *{
-      margin: 0px;
-      padding: 0px;
-    }
-    body{
-
-    }
-
-    /*Intro*/
-    img{
-      width: 100vw;
-    }
-
-    /*Footer*/
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
@@ -58,12 +32,15 @@
       <li>Total: Approximately 10 minutes</li>
       <li>Preparation: 5 minutes</li>
       <li>Cooking: 5 minutes</li>
+    </section>
+
+    <section id="ingr-list">
       <h2>Ingredients</h2>
       <li>2-3 large eggs</li>
       <li>Salt, to taste</li>
       <li>Pepper, to taste</li>
       <li>1 tablespoon of butter or oil</li>
-      <l1>Optional fillings: cheese, diced vegetables, cooked meats, herbs</l1>
+      <li>Optional fillings: cheese, diced  vegetables, cooked meats, herbs</li>
     </section>
 
     <section id="Instru">
@@ -91,14 +68,26 @@
     <section id="nutri">
       <h2>Nutrition</h2>
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
-      Calories
-      277kcal
-      Carbs
-      0g
-      Protein
-      20g
-      Fat
-      22g
+      <table>
+        <tbody>
+          <tr>
+            <td class="nutri">Calories</td>
+            <td class="valor">277kcal</td>
+          </tr>
+          <tr>
+            <td class="nutri">Carbs</td>
+            <td class="valor">0g</td>
+          </tr>
+          <tr>
+            <td class="nutri">Protein</td>
+            <td class="valor">20g</td>
+          </tr>
+          <tr>
+            <td class="nutri">Fat</td>
+            <td class="valor">22g</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
   
